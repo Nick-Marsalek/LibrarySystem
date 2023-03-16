@@ -7,12 +7,17 @@ var con = mysql.createConnection({
   database: "db"
 });
 
+
 con.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
-    var sql = "CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))";
+    var sql = "SELECT * FROM Users WHERE ID=1";
     con.query(sql, function (err, result) {
       if (err) throw err;
-      console.log("Table created");
+      //console.log(JSON.stringify(result));
+      //https://www.pluralsight.com/guides/load-and-render-json-data-into-react-components
+      const data = JSON.stringify(result)
+      console.log(data)
     });
   });
+

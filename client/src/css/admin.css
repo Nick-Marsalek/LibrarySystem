@@ -1,0 +1,120 @@
+.adminHeader {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  th {
+    background-color: rgb(117, 201, 250);
+  }
+  
+  td {
+    background-color: rgb(205, 235, 253);
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }
+
+  .panel {
+    width: 10dvw;
+    line-height: 5dvh;
+    font-size: 2.5dvh;
+  }
+
+  .manageloans {
+    position: absolute;
+    left: 44dvw;
+    top: 10dvh;
+  }
+
+  .managebooks {
+    position: absolute;
+    left: 44dvw;
+    top: 20dvh;
+  }
+
+  .manageusers {
+    position: absolute;
+    left: 44dvw;
+    top: 30dvh;
+  }
+
+  .adminlogout {
+    position: absolute;
+    left: 44dvw;
+    top: 40dvh;
+  }
+
+  .returnToPanel {
+    position: absolute;
+    left: 44dvw;
+    top: 8dvh;
+  }
+
+  .addBook {
+    position: absolute;
+    left: 44dvw;
+    top: 18dvh;
+  }
+
+  .bookName {
+    position: absolute;
+    left: 20dvw;
+    top: 30dvh;
+  }
+
+  .bookGenre {
+    position: absolute;
+    left: 35dvw;
+    top: 30dvh;
+  }
+
+  .bookAuthor {
+    position: absolute;
+    left: 50dvw;
+    top: 30dvh;
+  }
+
+  .bookCopies {
+    position: absolute;
+    left: 65dvw;
+    top: 30dvh;
+  }

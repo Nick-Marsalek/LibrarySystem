@@ -1,0 +1,107 @@
+.loginheader {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  left: 50dvw;
+  height: 0dvh;
+  width: 0dvw;
+  top: 15dvh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.loginheader2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  left: 50dvw;
+  height: 0dvh;
+  width: 0dvw;
+  top: 15dvh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.shape {
+  height: 50dvh;
+  width: 35dvw;
+  position: relative;
+  top: 10dvh;
+  left: 32dvw;
+  background-color: #282828;
+  border: 0.5dvw;
+  border-color: white;
+  border-style: solid;
+  
+  
+}
+
+.userlabel {
+  text-align: center;
+  position: absolute;
+  top: 22dvh;
+  left: 43.5dvw;
+  color: white;
+  width: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.9dvh;
+
+}
+
+.passlabel {
+  text-align: center;
+  position: absolute;
+  top: 32.2dvh;
+  left: 43.5dvw;
+  color: white;
+  width: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.9dvh;
+
+}
+
+.username {
+  padding: 10px 2px;
+  position: absolute;
+  top: 25dvh;
+  left: 43.5dvw;
+  width: 13dvw;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.password {
+  padding: 10px 2px;
+  position: absolute;
+  top: 35dvh;
+  left: 43.5dvw;
+  width: 13dvw;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.errorMessage {
+  position: absolute;
+  top: 60dvh;
+  left: 25dvw;
+  width: 50dvw;
+  color: red;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
